@@ -1,0 +1,20 @@
+{
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "description": "{{ 描述 }}",
+  "main": "index.js",
+  "bin": {
+    "abc": "./index.js",
+    "itcast": "./command.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "{{ 作者 }}",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.2.1",
+    "download-git-repo": "^3.0.2"
+  }
+}
